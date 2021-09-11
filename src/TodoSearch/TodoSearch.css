@@ -1,0 +1,18 @@
+.TodoSearch {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+  background-color: rgb(255, 255, 255);
+  background-size: 24px;
+  width: 97%;
+  border: transparent;
+  border-bottom: solid 1px rgb(7, 7, 7);
+  padding: 10px 10px 10px 30px;
+  outline: none;
+    
+  }
+  
+  .TodoSearch::placeholder {
+    color: #797777;
+    font-family: 'Montserrat';
+    font-weight: 400;
+  }
+  
