@@ -15,4 +15,7 @@
     font-family: 'Montserrat';
     font-weight: 400;
   }
+  .TodoSearch::disabled{
+    opacity: 25%;
+  }
   

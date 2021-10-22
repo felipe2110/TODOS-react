@@ -1,12 +1,9 @@
 import React from "react";
 import { AiFillDelete } from 'react-icons/ai';
-import { TodoContext } from "../TodoContent";
 import "./DeleteTodosButton.css";
 
-function DeleteTodosButton() {
-  const { deleteAllTodos } = React.useContext(TodoContext);
-
-
+function DeleteTodosButton({deleteAllTodos}) {
+  
   const onClickButton = () => {
     deleteAllTodos();
   };
